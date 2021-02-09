@@ -1,0 +1,46 @@
+body{
+    background-image: url(imagens/fundo.png);
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+#principal {
+ width: 900px;  
+ margin: 0 auto;
+}
+
+#menu{
+    background-color: #c5c5b2;
+    padding: 18px;
+    color:#4b566a; 
+}
+#menu a{
+    padding: 10px;
+    text-decoration: none;
+    color:#4b566a;
+}
+
+#sobre{
+    background-color: seashell;
+    font-weight: bold;
+    border-top: 3px solid #c5c5b2;
+    padding: 5px;
+    text-align: center;
+
+}
+#sobre h2{
+    font-size: 40px;
+}
+
+#direitos{
+    font-size: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#contatos{
+    background-color: seashell;
+    border-top: 3px solid seashell;
+    padding: 10px;
+    padding-right: 30px;
+}
+
