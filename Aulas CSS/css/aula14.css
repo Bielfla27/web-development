@@ -1,0 +1,50 @@
+*{
+ margin:0;
+ padding:0;
+}
+
+
+html,body{
+  height:100%;
+}
+
+ul{
+	list-style-position: inside;
+}
+
+
+.box{
+	width: 100%;
+}
+
+.box > div{  /* para pegar sem precisar de classes*/
+	box-sizing: border-box;
+	float: left;
+	width: 33.3%;
+	height: 400px;
+	background-color: red;
+	border:1px solid black;
+}
+
+
+
+
+/* 
+Negação! Aplique o estilo para todas as divs que não tenha a classe ONE
+.box div:not(.one){
+	background-color: gold;
+}
+
+/*
+.box div:last-child p{
+	color: rgba(255,255,255,1);
+}
+
+/*
+pegamos o último elemento do mesmo tipo
+*//*
+.box div:last-of-type,.box p:last-of-type{
+	background-color: green;
+}
+*/
+

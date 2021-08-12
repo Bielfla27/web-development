@@ -1,0 +1,32 @@
+`*`{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%; 
+}
+.artigo{
+	width: 80%;
+	background-color: blue;
+	padding: 40px;
+	margin: 40px;
+	text-align: center;
+}
+
+.artigo h2{
+	color: rgb(66,14,24);
+	font-size: 23px;
+	font-family: tahoma;
+	letter-spacing: 20px;
+}
+
+.artigo p{
+	color: orange;
+	text-align: left;
+	font-size: 16px;
+	font-family: tahoma; 
+	font-style: normal;
+	font-weight: bold;
+	margin-top: 12px;
+}

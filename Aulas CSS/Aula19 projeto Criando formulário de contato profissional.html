@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Meu site</title>
+	<link rel="stylesheet" type="text/css" href="css/aula16Miniprojeto.css">
+</head>
+<body>
+	<div class="a">
+		<form><!--para crir um formulário--> 
+			<fieldset> <!-- para criar um grupo de elemendo de formulário-->
+				<legend>Meu grupo do formulário</legend><!--nome do grupo do formulário-->
+				<div><input type="text" name="nome" placeholder="Digite o seu nome"></div>
+				<div><input type="text" name="e-mail" placeholder="Digite o seu e-mail"></div>
+				<div>
+					<select name="lista">
+						<option disabled selected>Qual sua idade?</option>
+						<option value="20">20</option>
+						<option value="25+">25+</option>
+						<option value="40+">40+</option>
+					</select>
+				</div>
+				<div>
+					<h2>Qual sua cidade?</h2>
+				</div>
+				<div class="input">
+				<div>
+					<input type="radio" name="cidade" value="Garanhuns"><span>Garanhuns</span>
+				</div>
+				<div>
+					<input type="radio" name="cidade"  value=""><span>São João</span>
+				</div>
+				<div>
+					<input type="radio" name="cidade" value="Itapé"><span>Itapé</span>
+				</div>
+				</div>
+				<div>
+					<h2>O que você gosta de comer?</h2>
+				</div>
+				<div class="input">
+				<div>
+					<input type="checkbox" name="comida[]" value="Frutas"><span>Frutas</span>
+				</div>
+				<div>
+					<input type="checkbox" name="comida[]"  value="Arroz"><span>Arroz</span>
+				</div>
+				<div>
+					<input type="checkbox" name="comida[]" value="Salada"><span>Salada</span>
+				</div>
+				</div>
+				<div>
+					<textarea  name="acao">Possui alguma observação?</textarea>
+				</div>
+				<div>
+					<input type="submit" name="acao" value="Enviar">
+				</div>
+
+			</fieldset>
+
+
+
+		</form>
+	</div>
+
+</body>
+</html>

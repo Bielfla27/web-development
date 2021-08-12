@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+.lista{
+	list-style-position: inside;
+	list-style-type: disc;/*mudar a bolina antes do nome*/
+	margin-left: 10px;
+
+}
+
+.lista{
+	color: green;
+	font-size: 18px; 
+	margin-top: 10px; 
+}
+
+.item3{
+	color: red;
+}
+
+ol{
+	list-style-position: inside;
+	list-style-type: decimal;	
+}
+
+ol > li{
+	color:  red; 
+}

@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+.center{
+	box-sizing: content-box;
+	width: 1280px;
+	margin: 0 auto; 
+	background-color: gray;
+}
+
+/* um método
+.artigo{
+	vertical-align: top;
+	margin: 10px 17px;
+	display: inline-block;
+	width: 600px;
+}*/
+
+.artigo{
+	box-sizing: border-box;
+	/*border-style: dotted;
+	border-width: 3px;
+	border-color: rgb(255,0,0);
+	 ou de forma mais resumida*/ 
+	/*border-left: 3px dotted rgb(255,0,0);*/
+	border: 3px dotted rgb(255,0,0);
+	vertical-align: top;/*para deixar o topo alinhado*/
+	display: inline-block;
+	margin-right: -4px;
+	margin-top: 30px;
+	width: 640px;
+}
+/* tbm tem o método out
+
